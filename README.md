@@ -8,22 +8,19 @@ Want to Learn about ChatBots? So the Solution is Here.
 
 ######Components
 
-1- intents.json — abunch of JavaScript objects that lists different tags that correspond to different types of word patterns
-
+1. intents.json — abunch of JavaScript objects that lists different tags that correspond to different types of word patterns
 2. train_chatbot.py — the code for reading in the natural language data into a training set and using a Keras sequential neural network to create a model
-
 3. words.pkl — a list of different words that could be used for pattern recognition
-
 4. classes.pkl — a list of different types of classes of responses
-
-5- chatbot_model.h5 — the actual model created by train_chatbot.py and used by chatgui.py
-
+5. chatbot_model.h5 — the actual model created by train_chatbot.py and used by chatgui.py
 6. chatgui.py — the code for cleaning up the responses based on the predictions from the model and creating a graphical interface for interacting with the chatbot
 
 ####How to Run
+
 terminal: 'python chatgui.py'
 
 ####Dependancies
+
 ChatterBot (pip install chatterbot)
 tensorflow (pip install tensorflow)
 keras (pip install keras)
